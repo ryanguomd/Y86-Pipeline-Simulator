@@ -1,0 +1,9 @@
+   L1:
+    irmovq $1, %rax
+    andq %rax,%rax
+    je L2
+    irmovq $2, %rbx
+    jmp L2
+    irmovq $3, %rbx
+   L2:
+    halt

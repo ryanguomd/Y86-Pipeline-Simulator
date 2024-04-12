@@ -1,0 +1,39 @@
+# Ryan Guo
+
+init:
+	.pos 0
+	irmovq Stack, %rsp
+	irmovq ele1, %rdi
+    xorq %rax, %rax
+	call rsum_list
+	halt
+
+# Sample linked list
+.align 8
+ele1:
+	.quad 0x00a
+	.quad ele2
+ele2:
+	.quad 0x0b0
+	.quad ele3
+ele3:
+	.quad 0xc00
+	.quad 0
+        
+rsum_list:  
+    andq %rdi, %rdi
+    je BaseCase
+    mrmovq (%rdi), %rdx
+    pushq %rdx
+    mrmovq 8(%rdi), %rdi
+    call rsum_list:
+    popq %rdx
+    addq %rdx, %rax
+    ret:
+
+BaseCase:
+	xorq %rax, %rax
+    ret
+
+.pos 0x100
+Stack:
