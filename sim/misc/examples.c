@@ -1,10 +1,3 @@
-/* 
- * Architecture Lab: Part A 
- * 
- * High level specs for the functions that the students will rewrite
- * in Y86-64 assembly language
- */
-
 /* $begin examples */
 /* linked list element */
 typedef struct ELE {
