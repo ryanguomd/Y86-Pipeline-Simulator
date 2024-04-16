@@ -1,9 +1,5 @@
 /***********************************************************************
- * Y86-64 Tools (Student Distribution)
- *
- * Copyright (c) 2002, 2010, 2015, R. Bryant and D. O'Hallaron,
- * All rights reserved. May not be used, modified, or copied
- * without permission.
+ * Y86-64 Tools
  ***********************************************************************/ 
 
 This directory contains the student distribution of the Y86-64 tools.  It
@@ -31,11 +27,6 @@ fancy graphical user interface.  Nice for visualizing and debugging,
 but requires installation of Tcl/Tk on your system.
 
 To build the Y86-64 tools, perform the following steps:
-
-NOTE: If your instructor prepared this distribution for you, then you
-can skip Step 1 and proceed directly to Step 2. The Makefile will
-already have the proper values for GUIMODE, TKLIBS, and TKINC for your
-system.
 
 Step 1. Decide whether you want the TTY or GUI form of the simulators,
 and then modify ./Makefile in this directory accordingly. (The changes
