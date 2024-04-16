@@ -1,9 +1,5 @@
 /***********************************************************************
  * Sequential Y86-64 Simulators
- *
- * Copyright (c) 2002, 2010, 2013, 2015  R. Bryant and D. O'Hallaron,
- * All rights reserved.
- * May not be used, modified, or copied without permission.
  ***********************************************************************/ 
 
 This directory contains the code to construct simulators for SEQ,
