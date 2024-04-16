@@ -1,8 +1,5 @@
 /***********************************************************************
  * Y86-64 Assembler, Instruction Simulator, and HCL translator
- *
- * Copyright (c) 2002, R. Bryant and D. O'Hallaron, All rights reserved.
- * May not be used, modified, or copied without permission.
  ***********************************************************************/ 
 
 This directory contains all of the source files for the following:
@@ -26,15 +23,14 @@ unix> make
 Makefile		Builds yas, yis, hcl2c, hcl2v
 README			This file
 
-* Versions of Makefile in the student's distribution
-* (Instructor distribution only)
+* Versions of Makefile 
 Makefile-sim	
 
-* Example programs for Part A of the CS:APP Architecture Lab
+* Example programs for Part A
 examples.c		C versions of three Y86-64 functions 
-ans-copy.ys		Solution copy function (instructor distribution only)
-ans-sum.ys		Solution sum function (instructor distribution only)
-ans-rsum.ys		Solution rsum function (instructor distribution only)
+ans-copy.ys		Solution copy function
+ans-sum.ys		Solution sum function
+ans-rsum.ys		Solution rsum function 
 
 
 * Instruction simulator code shared by yas, yis, ssim, ssim+, and psim
@@ -62,8 +58,7 @@ hcl.y			HCL grammar
 hcl.tab.c		HCL parser generated from hcl.y
 hcl.tab.h		Token definitions
 
-* Example HCL programs used during the writing of the CS:APP book
-* (Instructor distribution only)
+* Example HCL programs used
 frag.{hcl,c}
 mux4.{hcl,c}
 reg-file.{hcl,c}
