@@ -1,20 +1,16 @@
 /***********************************************************************
  * Pipelined Y86-64 Simulator
- *
- * Copyright (c) 2002, 2010, 2015 R. Bryant and D. O'Hallaron,
- * All rights reserved.
- * May not be used, modified, or copied without permission.
  ***********************************************************************/ 
 
 This directory contains the code to construct simulators for PIPE and
-the variants of it described in the homework exercises.
+the variants of it
 
 *************************
 1. Building the simulator
 *************************
 
 Different versions of the PIPE simulator can be constructed to use
-different HCL files when working on the different homework problems.
+different HCL files
 
 
 Binary	VERSION		HCL File	  Description
